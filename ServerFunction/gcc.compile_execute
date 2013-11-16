@@ -1,0 +1,4 @@
+#cd ~/VB_projects; 
+#svn update; 
+#cd ServerFunction/ServerFunction
+g++ -o ServerRun ServerFunction.cpp Config.cpp Connection.cpp
